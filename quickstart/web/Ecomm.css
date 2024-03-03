@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-inline: 22px;
+}
+.searchBar input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    background-color: transparent;
+}
+.searchBar i{
+    margin-left: -22px;
+}
+.logo{
+    font-size: 22px;
+}
+.searchBar{
+    display: flex;
+}
+.cart i{
+    font-size: 25px;
+}
+.cart p{
+    margin-left: 11px;
+    font-size: 20px;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 133px;
+}
+.mainText{
+    margin-top: 44px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.mainText h1{
+    font-size: 65px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+#shop{
+    background-color: rgb(255, 217, 0);
+}
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shops .card{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card button{
+    position: relative;
+    top: -2px;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(249, 21, 59);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 134, 48);
+
+}
+.gallery img{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.connect{
+    width: 400px;
+    padding: 22px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px gray;
+    text-align: center;
+    margin: auto;
+
+}
+.connect input{
+    width: 90%;
+    height: 12px;
+    padding: 12px;
+    border: 1px solid black;
+    font-size: 18px;
+    outline: none;
+    margin-top: 22px;
+}
+.connect button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(238, 5, 44);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+}
+.text p{
+    margin-top: 12px;
+}
+/* Add styling for product name and price */
+.card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card p.price {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #555; /* Change the color to match your design */
+}
+.total-price-and-products {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.total-price-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    margin-bottom: 20px;
+}
+
+.product-list p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
